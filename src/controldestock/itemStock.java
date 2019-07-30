@@ -13,26 +13,35 @@ import java.util.Date;
  * @author Desarrollo Web
  */
 public class itemStock {
- ArrayList<Integer>item=new ArrayList<>();
+ int cantidad;
  Computadora computadora;
  Date ultimaModificacion;
 
-    public itemStock(Computadora computadora, Date ultimaModificacion) {
-        this.computadora = computadora;
-        this.ultimaModificacion = ultimaModificacion;
+    public int getCantidad() {
+        return cantidad;
     }
 
-    public ArrayList<Integer> getItem() {
-        return item;
+    public void setCantidad(int cantidad) {
+        this.cantidad = cantidad;
     }
 
     public Computadora getComputadora() {
         return computadora;
     }
 
+    public void setComputadora(Computadora computadora) {
+        this.computadora = computadora;
+    }
+
     public Date getUltimaModificacion() {
         return ultimaModificacion;
     }
+
+    public void setUltimaModificacion(Date ultimaModificacion) {
+        this.ultimaModificacion = ultimaModificacion;
+    }
+
+ 
  
  
 

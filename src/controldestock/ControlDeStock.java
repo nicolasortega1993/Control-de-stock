@@ -12,14 +12,14 @@ import java.util.ArrayList;
  * @author Desarrollo Web
  */
 public class ControlDeStock {
-        ArrayList<itemStock>item=new ArrayList<>();
+        ArrayList<itemStock>items=new ArrayList<>();
 
     public ArrayList<itemStock> getItem() {
-        return item;
+        return items;
     }
 
     public void setItem(ArrayList<itemStock> item) {
-        this.item = item;
+        this.items = item;
     }
     
     }
