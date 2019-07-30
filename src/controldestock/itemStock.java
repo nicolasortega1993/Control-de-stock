@@ -17,6 +17,7 @@ public class itemStock {
  Computadora computadora;
  Date ultimaModificacion;
 
+
     public int getCantidad() {
         return cantidad;
     }
@@ -41,12 +42,5 @@ public class itemStock {
         this.ultimaModificacion = ultimaModificacion;
     }
 
- 
- 
- 
-
-
-    
- 
     
 }
